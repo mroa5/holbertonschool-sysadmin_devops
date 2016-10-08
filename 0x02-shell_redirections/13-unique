@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -d
+echo 'a s d s d a s d s a a d d s a s d d s a' | tr ' ' '\n' | sort | uniq -u
